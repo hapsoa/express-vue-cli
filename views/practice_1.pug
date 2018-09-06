@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  script(src='/javascripts/vue.js')
+
+  #app-7
+    ol
+      todo-item(v-for="item in groceryList"
+                v-bind:todo="item"
+                v-bind:key="item.id", v-bind:title="key"
+                , v-bind:id="item.id"
+                v-on:click="getKey")
+
+  script(src="/javascripts/practice_01.js")
+  //script(src="/javascripts/practice_02.js")

@@ -1,0 +1,21 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+.message-list {
+  color: #333; }
+  .message-list .message {
+    padding: 12px;
+    border: solid 1px #ccc; }
+    .message-list .message .user {
+      line-height: 2;
+      font-size: 20px;
+      font-weight: 800; }
+    .message-list .message .text {
+      line-height: 1.5;
+      font-size: 12px; }
+
+/*# sourceMappingURL=style.css.map */

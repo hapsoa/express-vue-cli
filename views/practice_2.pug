@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    script(src='/javascripts/vue.js')
+
+    #app
+        p {{ foo }}
+        button(v-on:click="foo = 'baz'") Change it
+
+    script(src="/javascripts/practice_02.js")
